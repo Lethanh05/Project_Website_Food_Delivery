@@ -1,0 +1,165 @@
+/* Phần nội dung */
+#main-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  font-size: 16px;
+}
+#main-content h3 {
+  font-size: 22px;
+  color: var(--left-menu-color);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#main-content button {
+  background-color: var(--left-menu-color);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+#main-content button:hover {
+  background-color: #5947d3;
+}
+
+/* Form chung */
+form {
+  margin-top: 20px;
+  background-color: #f8f8ff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+form label {
+  font-weight: 500;
+  color: #333;
+}
+form input[type="text"],
+form input[type="number"],
+form input[type="file"],
+form input[type="date"],
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #fff;
+}
+form button[type="submit"] {
+  background-color: var(--left-menu-color);
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+}
+form button[type="submit"]:hover {
+  background-color: #4a3dc0;
+}
+
+/* Bảng sản phẩm */
+#bangSanPham {
+  width: 100%;
+  padding: 20px;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+#bangSanPham th {
+  background-color: var(--left-menu-color);
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+}
+#bangSanPham td {
+  padding: 10px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+#bangSanPham img {
+  width: 60px;
+  height: auto;
+}
+
+/* Bảng đơn hàng */
+#bangDonHang {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+#bangDonHang td {
+  padding: 10px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+#bangDonHang th {
+  background-color: var(--left-menu-color);
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.status-dropdown {
+  padding: 5px;
+}
+
+/* Bảng giảm giá */
+#bangGiamGia {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+#bangGiamGia th {
+  background-color: var(--left-menu-color);
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+}
+#bangGiamGia td {
+  padding: 10px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+/* Bảng liên hệ */
+#bangLienHe {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+#bangLienHe th {
+  background-color: var(--left-menu-color);
+  color: #eee;
+  padding: 10px;
+  text-transform: uppercase;
+}
+#bangLienHe td {
+  padding: 10px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+/* Nút trong cột hành động đơn giản */
+.btn-action {
+  background-color: var(--left-menu-color);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 4px;
+}
+.btn-action:hover {
+  background-color: #5947d3;
+}
